@@ -1,0 +1,213 @@
+*{margin: 0; padding: 0;}
+
+  
+  
+/*  .fundo{
+   background-size: 1280px 360px;
+  }
+*/
+body{
+  background: #9dcdd1;
+}
+
+*{
+  box-sizing: border box;
+}
+
+/*cabeça*/
+header{
+  background-color: #043b73;
+  box-shadow: 0px 3px 10px #043b73;
+  width: 63.5rem;
+  background: #043b73;
+}
+/*Botão de inscrição*/
+
+.nav-button{
+  text-align: right;
+ 
+}
+
+.button {
+  font-size: 3rem;
+  border:5px solid white;
+  text-decoration: none;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #043b73; 
+  border-radius: 2px;
+  
+}
+
+/*pagina inicial*/
+
+ .nome{
+  text-align:left;
+  color:#19a5dd;
+  font-size: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+/*discrição do evento*/
+
+.link{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+  padding: 2rem;
+}
+.link a{
+  text-align: center;
+  line-height: 1;
+  margin: 1rem 5rem;
+  color: white;
+  text-decoration: none;
+
+}
+/*logo*/
+.nav-logo{
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  border-radius:50%;
+  border: 10px solid #043b73;
+  margin: 300px;
+  
+}
+.logo{
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  border-radius:50%;
+  
+  
+}
+
+/*semitec em...*/
+
+h1{
+  color: #043b73;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: black;
+  font-size: 4rem;
+  margin-top: -15.5rem;
+  text-align: center;
+  
+}
+
+
+
+/*relogio de contagem regressiva*/
+.countdown-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.text{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+  color: #043b73;
+
+}
+
+.countdown-el{
+  text-align: center;
+  
+}
+span{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+  color: #043b73;
+  text-align: center;
+}
+
+/*imagem de redes sociais*/
+.img{
+  width: 40px;
+  right:30px ;
+}
+.format{
+  width: 100%;
+  right: 10%;
+  
+}
+.list{
+  text-align: center;
+}
+.list img{
+  text-align: center;
+  border-radius: 50%;
+  
+  
+}
+.list ul{
+    display: flex;
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem 4rem;
+    color: #043b73;
+  
+}
+  
+
+lo a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  right: 1px;
+  
+  
+}
+
+.instagram{
+  border-radius: 50%;
+  border: 4px solid mediumvioletred;
+  width: 60px;
+  right: 60px;
+  
+}
+
+.whatsapp{
+  
+  border: 4px solid green;
+  width: 60px;
+  right: 60px;
+  text-align: center;
+  
+}
+.twiter{
+  border: 4px solid deepskyblue;
+  width: 60px;
+  right: 60px;
+  
+}
+.yotube{
+  border: 4px solid red;
+  width: 60px;
+  right:60px;
+
+}
+.facebook{
+  border: 4px solid blue;
+  width: 60px;
+  right:60px;
+  
+}
+
+ul h6{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 20px;
+  line-height: 1;
+}
